@@ -1,0 +1,33 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCh_lpjkYHL6IMfemKhb5Ye0-xgad_l0sA</string>
+    <string name="app_name">ITSmartS</string>
+    <string name="itsmarts">ITSmartS</string>
+    <string name="base_title">PRÁCTICA DE DISEÑO UI</string>
+    <string name="listado_de_clientes">LISTADO DE CLIENTES</string>
+    <string name="titulo">Titulo</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="versi_n_movil">VERSIÓN MOVIL</string>
+    <string name="todo">TODO</string>
+    <string name="id_cliente">ID CLiente</string>
+    <string name="nombre_apellidos">Nombre / Apellidos</string>
+    <string name="numero_de_telefono">Numero de telefono</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="fecha_de_creation">Fecha de creation</string>
+    <string name="ubicacion_del_cliente">UBICACION DEL CLIENTE</string>
+    <string name="informacion_del_cliente">INFORMACION DEL CLIENTE</string>
+    <string name="selecciona_un_municipio">Selecciona un municipio</string>
+    <string name="selecciona_un_estado">Selecciona un estado</string>
+    <string name="colonia">Colonia</string>
+    <string name="calle">Calle</string>
+    <string name="codigo_postal">Codigo Postal</string>
+    <string name="referencia_en_el_mapa">Referencia en el mapa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="y">Y</string>
+    <string name="x">X</string>
+    <string name="guardar">Guardar Elementos</string>
+    <string name="no_cancelar">No, cancelar</string>
+    <string name="si_borrar">Si, borrar</string>
+    <string name="eliminarTitle">Eliminar</string>
+</resources>

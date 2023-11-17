@@ -1,0 +1,51 @@
+<!-- res/layout/popup.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="26dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/text_style_title"
+        android:text="@string/eliminarTitle"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Esta seguro que desea eliminar este elemento? Eso sera por siempre (mucho tiempo)"/>
+
+
+
+    <!-- Agrega tus vistas y elementos de diseño aquí -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btnDismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/danger"
+            android:text="@string/no_cancelar" />
+
+        <Button
+            android:id="@+id/btnAcceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/primary"
+            android:text="@string/si_borrar" />
+    </LinearLayout>
+</LinearLayout>
